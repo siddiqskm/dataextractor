@@ -27,7 +27,7 @@ def main():
     """Main function"""
     args = parse_args()
     obj = Facade(args.file_name)
-    obj.get_page_contents_with_page_num(2)
+    obj.get_page_contents_with_page_num(1)
     tables = obj.show_tables()
     print("Tables are: %s" % tables)
 
